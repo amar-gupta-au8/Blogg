@@ -1,0 +1,82 @@
+/* Colors 
+
+Background:
+0b0c10
+
+Secondary bacxk
+1f2833
+
+gray
+c5c6c7
+
+primary
+66fcf1
+
+secondary
+45a29
+
+
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+a{
+    color: #66fcf1 !important; 
+}
+input{
+    background: #1f2833 !important;
+    color:#66fcf1 !important;
+}
+img{
+    filter: grayscale(20%) brightness(0.9);
+}
+
+
+
+/* Header */
+.navbar{
+    background: #0b0c10;
+    color: #66fcf1 !important; 
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.btn-main{
+    background: #66fcf1 !important; 
+    color:  #0b0c10 !important;
+}
+
+/* Hero Section */
+.hero{
+    background: #1f2833 !important;
+}
+.hero-post{
+    position: relative;
+}
+.hero-post-badges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.hero-post-badges>a {
+    display: block;
+    background: #0b0c10;
+    color: #66fcf1 !important;
+    font-size: 0.8rem;
+}
+.hero-post-content{
+    position: absolute;
+    bottom: 10px;
+    color: #66fcf1 !important;
+}
+.hero-post-content img{
+    border: 2px solid #66fcf1 ;
+}
+
+
+
+ 
