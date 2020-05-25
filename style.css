@@ -17,24 +17,63 @@ secondary
 
 
 */
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3, h4, h5 {
     font-weight: 700;
+    color: #66fcf1 !important; 
 }
 a{
     color: #66fcf1 !important; 
+    text-decoration: none !important;
 }
 input{
     background: #1f2833 !important;
     color:#66fcf1 !important;
 }
 img{
-    filter: grayscale(20%) brightness(0.9);
+    filter: grayscale(50%) brightness(0.9);
+}
+img.rounded-circle{
+   filter: none; 
+   border: 2px solid #66fcf1 ;
 }
 
 
+
+/* black and white toogle */
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+.check{
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 30px;
+    background: #092c3e;
+    cursor: pointer;
+    border: 1px solid #66fcf1;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+    font-size:1.6rem;
+    
+}
+input[type="checkbox"]:checked ~ .check
+{
+    background: #fff;
+    box-shadow: 0 0 0 20000px #fff;
+    color: #333;
+}
+.check:before {
+    content:'';
+    position: absolute;
+    
+}
 
 /* Header */
 .navbar{
@@ -77,6 +116,58 @@ img{
     border: 2px solid #66fcf1 ;
 }
 
+
+/* Main blog */
+.blog-posts{
+    background: #0b0c10;
+    color: #c5c6c7 !important;
+}
+.blog-post{
+   background: #1f2833;
+   padding: 0.2rem 0.5rem;
+   line-height: 1.6;
+}
+.blog-post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-post .col-sm-8{
+   border-left: 3px solid #66fcf1;
+}
+.badge>a {
+    margin-left: 0.5rem;
+    padding: 0.8rem;
+    background: #66fcf1;
+    color: #0b0c10 !important;
+    
+}
+
+/* Aside bar */
+/* Socail links */
+.social-links{
+    
+    background: #66fcf1 !important;
+}
+.social-link{
+    color: #0b0c10 !important;
+    font-size:1.5rem;
+}
+.middle{
+   background: #1f2833 !important;
+   color: #66fcf1 !important;
+    
+}
+.middle .social-link{
+   color: #66fcf1 !important;
+    
+}
+
+/* Aside */
+
+.aside-heading{
+    border-left: 3px solid #66fcf1;
+}
 
 
  
