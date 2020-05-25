@@ -169,5 +169,11 @@ input[type="checkbox"]:checked ~ .check
     border-left: 3px solid #66fcf1;
 }
 
+@media(max-width:600px){
+    .rounded-circle{
+        height:10vh;
+    }
+}
+
 
  
